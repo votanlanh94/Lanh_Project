@@ -1,0 +1,20 @@
+- Website:
+1. sacngockhang.com
+User: sacngockhang
+Pass: HTPsacngockhang2019
+2. serum.sacngockhang.com
+3. shop.htpp.com.vn
+4. htpp.com.vn
+User:htppharma
+Pass: MatKhauLa@SNK
+5. snk.vn
+snk.cometics
+NZ#4d&PXRZq1V)mh8RBeWzUk
+
+centOs 7 64
+
+sever2 197: 
+103.221.223.197
+User: root
+Passwd: ishYsiTAIrsons
+Port:22
