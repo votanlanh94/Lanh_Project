@@ -1,0 +1,74 @@
+old server information:
+CentO 7, nginx 1.16.0
+PHP verson: 7.1.28
+
+=> installed nginx 1.16.1
+
+Khởi động và cho phép khởi động khi boot hệ điều hành
+systemctl start nginx.service
+systemctl enable nginx.service
+service nginx start
+service php-fpm start
+
+reload file config nginx: nginx -s reload
+
+
+allow firewall for nginx:
+sudo firewall-cmd --zone=public --add-port=80/tcp --permanent
+sudo firewall-cmd --reload
+
+=========================
+- unstall mysql when conflict with mariadb: yum remove mysql-server yum remove mysql-libs
+- check list mysql package: 
+yum list installed | grep mysql
+
+======================
+file test php info:  vi /usr/share/nginx/html/info.php
+
+file config php-fpm:  /etc/php-fpm.d/www.conf
+
+Đổi tên hostname: https://hocvps.com/thay-doi-hostname-trong-linux/
+
+Xóa tất cả text trong vi: dd dG
+Kiểm tra port: 
+netstat -tulpn 
+/ cài: yum install net-tools
+
+systemctl start mariadb
+systemctl status mariadb
+mysql -u root -p
+SHOW TABLES;
+
+USE database_name;
+
+mysql -u [username] -p [database name]
+
+check nginx service: 
+systemctl status nginx.service
+
+test nginx:  nginx -t
+php-fpm -v
+
+Số lượng process của máy: nproc
+file config nginx: /etc/nginx/conf.d
+log nginx: 
+cat  /var/log/nginx/error.log
+
+link repo: 
+/etc/yum.repos.d
+list package installed:
+yum list installed
+
+stop mysql: 
+/etc/init.d/mysql stop
+
+restart cPanel:
+run in terminal cpanel or server root:
+ /scripts/restartsrv_cpsrvd
+
+change server hostname: 
+# sudo nano /etc/sysconfig/network
+file hosts:
+/etc/hosts
+
+

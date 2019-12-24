@@ -10,11 +10,67 @@ Pass: MatKhauLa@SNK
 5. snk.vn
 snk.cometics
 NZ#4d&PXRZq1V)mh8RBeWzUk
-
-centOs 7 64
-
+-----------------------------
 sever2 197: 
 103.221.223.197
 User: root
-Passwd: ishYsiTAIrsons
+Passwd: 
+ishYsiTAIrsons
 Port:22
+-----------------------------
+command:
+- hostname command: hostnamectl
+-----------------------------
+newVPN:
+112.78.4.169
+root cpanel: 
+https://112.78.4.169:2087/
+root
+e0t7to5d!Ab1
+
+sacngockhang.com Cpanel
+https://112.78.4.169:2083/ 
+g!QtZhRzJwc;
+-----------------------------
+server: 103.221.223.176
+User: root
+kQJ3CH5j7uRl&d
+Port:22
+
+-----------------------------
+online.sacngockhang.com
+admin
+73006033@Htp
+
+
+---------------------
+export mysql: mysqldump -u sacngockhang_wp -p sacngockhang_wp > sacngockhang_wp.sql
+
+---------------------
+cloudflare.com
+hoathienphupharma@gmail.com
+@5xVB^qb5cS#^3$vbj3w9CyV
+
+=========================
+mariaDB pass: 
+SacNgocKhangCom@@
+
+db: sacngockhang_com
+username: sacngockhang_com
+.s^ho;(24N&t
+
+-----------------------------------------
+installed wordpress:
+ten website: sacngockhang.com
+ten nguoi dung: sacngockhang
+pass:
+HTPsacngockhang2019
+vAcbwP9n3o$9!Pf&01
+
+------------------------------------------
+https://tools.sacngockhang.com/
+admin
+73006033@Htp
+-----------------------------------------
+userdb: sacngockhang_wp
+It3IbL_W_U#K
